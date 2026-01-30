@@ -151,7 +151,7 @@ INNGEST_EVENT_KEY="..."
 INNGEST_SIGNING_KEY="..."
 
 # Email (Nodemailer)
-ADMIN_EMAILS = "your-email@gmail.com,"your-email2@gmail.com""
+ADMIN_EMAILS = "your-email@gmail.com, your-email2@gmail.com"
 SENDER_EMAIL= your-email@gmail.com
 SMTP_USER="@smtp-brevo.com"
 SMTP_PASS="your-app-password"

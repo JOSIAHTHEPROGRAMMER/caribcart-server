@@ -329,7 +329,7 @@ export const purchaseAccount = async (req, res) => {
         ];
 
         const session = await stripeInstance.checkout.sessions.create({
-            success_url: `${origin}/loading/my-orders`,
+            success_url: `${origin}/loading/myorders`,
             cancel_url: `${origin}/marketplace`,
             line_items: line_items,
             mode: "payment",

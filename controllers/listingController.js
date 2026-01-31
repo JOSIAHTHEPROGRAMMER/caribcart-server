@@ -318,7 +318,7 @@ export const purchaseAccount = async (req, res) => {
         const line_items = [
             {
                 price_data: {
-                    currency: "usd",
+                    currency: "ttd",
                     product_data: {
                         name: `Purchasing Account @${listing.username} of ${listing.platform} platform`,
                     },

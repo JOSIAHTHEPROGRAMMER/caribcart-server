@@ -4,7 +4,7 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "postinstall": "npx prisma@6.17.0 generate && npm audit fix",
+       "postinstall": "npx prisma generate",
         "start": "node server.js",
         "server": "nodemon server.js"
     },
